@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locale lang="en_us">
+    <Item id="preference_title" text="Global Settings"/>
+    <Item id="preference_title_individual" text="Settings for This Game"/>
+    <Item id="preference_output_log" text="Write Debug Log File"/>
+    <Item id="preference_select_renderer" text="Renderer"/>
+    <Item id="preference_opengl" text="OpenGL (experimental)"/>
+    <Item id="preference_software" text="Software (default)"/>
+    <Item id="preference_renderer_opt" text="Advanced Renderer Options"/>
+    <Item id="preference_soft_renderer_opt" text="Software Renderer Options"/>
+    <Item id="preference_opengl_renderer_opt" text="OpenGL Renderer Options"/>
+    <Item id="preference_multi_draw_thread" text="Draw Threads"/>
+    <Item id="preference_draw_thread_auto" text="Auto"/>
+    <Item id="preference_draw_thread_1" text="1"/>
+    <Item id="preference_draw_thread_2" text="2"/>
+    <Item id="preference_draw_thread_3" text="3"/>
+    <Item id="preference_draw_thread_4" text="4"/>
+    <Item id="preference_draw_thread_5" text="5"/>
+    <Item id="preference_draw_thread_6" text="6"/>
+    <Item id="preference_draw_thread_7" text="7"/>
+    <Item id="preference_draw_thread_8" text="8"/>
+    <Item id="preference_software_compress_tex" text="Texture Compression"/>
+    <Item id="preference_soft_compress_tex_none" text="None"/>
+    <Item id="preference_soft_compress_tex_halfline" text="Half Line"/>
+    <Item id="preference_ogl_compress_tex" text="Texture Compression"/>
+    <Item id="preference_ogl_compress_tex_none" text="None"/>
+    <Item id="preference_ogl_compress_tex_half" text="Quarter Pixel"/>
+    <Item id="preference_remember_last_path" text="Remember Last Folder"/>
+    <Item id="preference_keep_screen_alive" text="Keep Screen On While Playing"/>
+    <Item id="preference_custom_option" text="Custom Option"/>
+    <Item id="preference_opengl_dup_target" text="Copy Render Target Texture"/>
+    <Item id="preference_ogl_accurate_render" text="Accurate Rendering"/>
+    <Item id="preference_ogl_max_texsize" text="Max Texture Size"/>
+    <Item id="preference_ogl_texsize_auto" text="Auto"/>
+    <Item id="preference_ogl_texsize_1024" text="1024"/>
+    <Item id="preference_ogl_texsize_2048" text="2048"/>
+    <Item id="preference_ogl_texsize_4096" text="4096"/>
+    <Item id="preference_ogl_texsize_8192" text="8192"/>
+    <Item id="preference_ogl_texsize_16384" text="16384"/>
+    <Item id="preference_mem_limit" text="Memory Limit (try lower if a game crashes)"/>
+    <Item id="preference_mem_unlimited" text="Unlimited"/>
+    <Item id="preference_mem_high" text="High (under 300 MB)"/>
+    <Item id="preference_mem_medium" text="Medium (under 200 MB)"/>
+    <Item id="preference_mem_low" text="Low (under 100 MB)"/>
+    <Item id="preference_show_fps" text="Show FPS Counter"/>
+    <Item id="preference_fps_limit" text="FPS Limit"/>
+    <Item id="preference_hide_loading_ad" text="Hide Ads while loading"/>
+    <Item id="preference_rotate_screen_180" text="Rotate Game Screen (flip upside down)"/>
+    <Item id="preference_virtual_cursor_scale" text="Virtual Cursor Size"/>
+    <Item id="preference_menu_handler_opacity" text="Menu Button Opacity"/>
+    <Item id="preference_reset" text="Reset"/>
+    <Item id="preference_hide_android_sys_btn" text="Hide System Bars (fullscreen)"/>
+    <Item id="preference_default_font" text="Custom Font File (blank = built-in font)"/>
+    <Item id="preference_force_def_font" text="Always Use This Font"/>
+    <Item id="ok" text="OK"/>
+    <Item id="cancel" text="Cancel"/>
+    <Item id="retry" text="Retry"/>
+    <Item id="start" text="Start"/>
+    <Item id="stop" text="Stop"/>
+    <Item id="reactive" text="Reactive"/>
+    <Item id="ensure_to_override_file" text="This will overwrite:"/>
+    <Item id="readonly_storage" text="Cannot write to this storage"/>
+    <Item id="cannot_create_preference" text="Could not create the settings file for this game. Check that the game folder is writable."/>
+    <Item id="use_internal_path" text="The app cannot write save data next to this game. Turn on &quot;All files access&quot; for this app in Android Settings, or copy the game folder into one of the app folders below and try again:"/>
+    <Item id="continue_run" text="Continue"/>
+    <Item id="get_sdcard_permission" text="Fetch Permission(May Slow)"/>
+    <Item id="crash_report" text="Crash Report"/>
+    <Item id="crash_report_msg" text="Crash detected, send data (%d files) to help improving this app?"/>
+    <Item id="menu_rotate" text="Rotate Screen"/>
+    <Item id="menu_global_preference" text="Global Settings"/>
+    <Item id="menu_new_local_pref" text="Create Game Settings"/>
+    <Item id="menu_local_pref" text="Game Settings"/>
+    <Item id="menu_new_folder" text="New Folder"/>
+    <Item id="menu_about" text="About"/>
+    <Item id="menu_exit" text="Exit"/>
+    <Item id="menu_help" text="View Help"/>
+    <Item id="menu_archive_repack" text="Conv/Dec XP3"/>
+    <Item id="menu_web_server" text="Web File Server"/>
+    <Item id="about_content" text="Game patches:&#10;https://zeas2.github.io/Kirikiroid2_patch/patch&#10;Report bugs:&#10;https://github.com/YuriSizuku/Kirikiroid2Yuri/issues"/>
+    <Item id="about_content_i" text=""/>
+    <Item id="sure_to_exit" text="Exit the app?"/>
+    <Item id="msgbox_yes" text="Yes"/>
+    <Item id="msgbox_no" text="No"/>
+    <Item id="msgbox_ok" text="OK"/>
+    <Item id="msgbox_nerver_notice" text="Do not show again"/>
+    <Item id="use_last_path" text="Use last path:"/>
+	
+    <Item id="notice" text="Notice"/>
+    <Item id="err_narrow_to_wide" text="Cannot convert the text to the expected encoding.&#10;The data may be corrupted, encrypted, or in a different text encoding.&#10;If the game is encrypted you may need xp3filter.tjs;&#10;if the text is not SHIFT-JIS, use patch.tjs to set the correct encoding."/>
+	<Item id="err_no_memory" text="Not enough memory.&#10;If this keeps happening, lower the Memory Limit in Settings."/>
+	<Item id="err_occured" text="Error"/>
+	<Item id="err_read_error" text="Read error. A game file could not be read. Make sure the game was copied completely and its storage is accessible."/>
+	<Item id="err_not_xp3_archive" text="%1 is not a valid XP3 archive. The file may be damaged, incomplete, or use an unsupported encryption."/>
+	<Item id="err_cannot_suggest_graph_ext" text="%1: cannot detect the image format. The data may be damaged, or the script may contain an error."/>
+	<Item id="delete" text="Delete"/>
+	<Item id="file_operate_menu_title" text="File Operation"/>
+	<Item id="file_operate_menu_text" text="Choose an action:"/>
+	<Item id="ensure_to_delete_file" text="Delete the following?"/>
+	<Item id="ensure_item_count" text="%d items"/>
+	<Item id="device_info" text="Device Info"/>
+	<Item id="supported_opengl_extension" text="OpenGL Extensions(Only usable list):"/>
+	<Item id="preference_opengl_extension_opt" text="OpenGL Extensions"/>
+	<Item id="startup_patch_fail" text="Patch failed to load. Please update patch.tjs for this game."/>
+	<Item id="browse_patch_lib" text="Patch Lib"/>
+	<Item id="preference_opengl_extension_desc" text="May be usable OpenGL extension list here.&#10;Some features may cause wrong rendering result on some devices."/>
+	<Item id="preference_android_fetch_sdcard_permission" text="Fetch external sd-card write permission"/>
+	
+	<Item id="filemgr_unselect" text="Cancel"/>
+	<Item id="filemgr_browse" text="View"/>
+	<Item id="filemgr_delete" text="Delete"/>
+	<Item id="filemgr_copy" text="Copy"/>
+	<Item id="filemgr_cut" text="Cut"/>
+	<Item id="filemgr_paste" text="Paste to here"/>
+	<Item id="filemgr_sendto" text="Send to..."/>
+	<Item id="filemgr_unpack" text="Unpack"/>
+	<Item id="filemgr_rename" text="Rename"/>
+	<Item id="file_operate_failed" text="File operation fail:"/>
+	<Item id="fail_to_open_archive" text="Could not open archive:"/>
+	
+	<Item id="archive_repack_desc" text="Converting and decrypting an archive can speed up loading and reduce heat. Make sure free space is larger than the biggest archive, or the operation may fail."/>
+	<Item id="archive_repack_merge_img" text="Merge mask image"/>
+	<Item id="archive_repack_conv_etc2" text="Conv img to ETC2"/>
+	<Item id="archive_repack_proc_title" text="Converting..."/>
+	<Item id="archive_repack_no_xp3filter" text="No xp3filter found in this folder. Continue anyway?"/>
+	<Item id="archive_repack_no_xp3" text="No XP3 archive found. Stopped."/>
+	<Item id="preference_ui_theme_dark" text="Dark Theme Refresh"/>
+	<Item id="preference_ui_scale" text="Interface Size (restart app to apply)"/>
+	<Item id="err_create_folder" text="Could not create the folder. Check the name, and that this location is writable."/>
+</Locale>
