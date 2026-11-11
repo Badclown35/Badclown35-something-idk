@@ -114,3 +114,9 @@ Some string code from [glibc](https://www.gnu.org/s/libc) and [Apple Libc](https
 Real-time texture codec modified from [etcpak](https://bitbucket.org/wolfpld/etcpak.git), [pvrtccompressor](https://bitbucket.org/jthlim/pvrtccompressor), [astcrt](https://github.com/daoo/astcrt)
 
 Android storage accessing code from [AmazeFileManager](https://github.com/arpitkh96/AmazeFileManager)
+
+---
+
+## AI-assisted development
+
+> **Vibe coded with AI.** This project was built and iterated on with AI assistance, guided by human ideas, prompts, testing, and decisions. AI-generated contributions may contain mistakes; review and verify changes before use.
